@@ -54,7 +54,7 @@
         </div>
 
         <div class="flex justify-center mt-5">
-            <x-primary-button class="bg-[#FF6363] hover:bg-[#FF6363]">
+            <x-primary-button>
                 {{ __('Inscrivez-vous') }}
             </x-primary-button>
         </div>

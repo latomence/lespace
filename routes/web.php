@@ -22,6 +22,18 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+// Route::get('/searchResult', function () {
+//     return view('searchResult');
+// })->middleware(['auth', 'verified'])->name('searchResult');
+
+Route::get('/searchResult', function () {
+    return view('searchResult');
+});
+
+Route::get('/packs', function () {
+    return view('packs');
+});
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
