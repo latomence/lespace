@@ -3,7 +3,7 @@
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
     <div class="flex justify-center">
-        <h1 class="text-4xl">Connectez-vous</h1>
+        <h1 class="text-4xl mb-10">Connectez-vous</h1>
     </div>
 
     <form method="POST" action="{{ route('login') }}">
@@ -29,8 +29,8 @@
         </div>
 
         <div class="flex justify-center mt-6">
-            <x-primary-button class="bg-[#FF6363] hover:bg-[#FF6363]">
-                {{ __('ME CONNECTER') }}
+            <x-primary-button>
+                {{ __('Me connecter') }}
             </x-primary-button>
         </div>
 
