@@ -34,6 +34,18 @@ Route::get('/packs', function () {
     return view('packs');
 });
 
+Route::get('/profileProf', function () {
+    return view('profileProf');
+});
+
+Route::get('/myProfile', function () {
+    return view('myProfile');
+});
+
+Route::get('/messages', function () {
+    return view('messages');
+});
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
