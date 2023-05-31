@@ -46,6 +46,10 @@ Route::get('/messages', function () {
     return view('messages');
 });
 
+Route::get('/home', function () {
+    return view('home');
+});
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
