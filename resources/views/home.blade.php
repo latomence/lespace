@@ -1,12 +1,20 @@
+<div class="top-0 bg-[#FF6363] rounded-b-lg">
+    <div class="flex flex-row justify-between p-2 content-center">
+        <div class="bg-black w-20 h-12 rounded-xl"></div>
+        <div class="flex flex-row gap-2">
+            <div class="text-center bg-white text-balck rounded-xl w-auto h-8 p-1 px-3"><a href="/register">Inscription</a></div>
+            <div class="text-center bg-white text-balck rounded-xl w-auto h-8 p-1 px-3"><a href="/login">Connexion</a></div>
+        </div>
+    </div>
+</div>
+
 <section class="flex flex-row justify-center py-16 gap-56 h-screen">
     <div class="flex flex-col justify-center">
         <h1 class="text-5xl font-bold">VOTRE ESPACE <br>D’APRENTISSAGE</h1>
         <p class="py-3">Apprenez ce que vous voulez quand vous vouler grâce à notre <br>communautée grandissante !</p>
         <div class="border border-[#DEDEDEDE] rounded-lg p-3 mt-3 w-full flex flex-row justify-between align-center">
             <input type="text" placeholder="Que voulez-vous apprendre ?" class="border-none w-60">
-            <div class="bg-[#FF6363] p-1 rounded-lg text-center text-white text-sm w-40">
-                Rechercher
-            </div>
+            <div class="bg-[#FF6363] p-1 rounded-lg text-center text-white text-sm w-40"><a href="/profileProf">Rechercher</a></div>
         </div>
     </div>
     <div class="bg-black flex justify-center w-96 h-96 rounded-lg mt-20"></div>
@@ -66,7 +74,7 @@
         <div class="flex flex-col w-96 text-center">
             <h1 class="text-3xl font-bold">DES ENSEIGNANTS CERTIFIES ET ETOILES</h1>
             <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sunt facere fuga fugit aliquid.</p>
-            <button class="bg-[#FF6363] rounded-lg text-center text-white w-64 px-4 mx-auto mt-3">Voir plus d'enseignents</button>
+            <button class="bg-[#FF6363] rounded-lg text-center text-white w-64 px-4 mx-auto mt-3"><a href="/profileProf">Voir plus d'enseignents</a></button>
         </div>
     </div>
 </section>
@@ -87,7 +95,7 @@
         <div class="flex flex-col flex-wrap justify-center mx-auto w-2/3 ml-24">
             <h2 class="font-bold text-xl">2. Je profite des X-Pay</h2>
             <p class="w-auto py-5">L'achat de notre monnaie virtuelle est un processus simple et rapide. Pour commencer, cliquez sur le bouton "Acheter" situé sur notre page principale. Vous serez redirigé vers un formulaire où vous devrez fournir quelques informations de base, telles que votre nom, votre adresse e-mail et le montant de monnaie virtuelle  que vous souhaitez acheter.</p>
-            <button class="bg-[#FF6363] rounded-lg text-center text-white w-64 px-4 mt-3">Voir les offres</button>
+            <button class="bg-[#FF6363] rounded-lg text-center text-white w-64 px-4 mt-3"><a href="/packs">Voir les offres</a></button>
         </div>
     </div>
     <div class="flex flex-row w-9/12 flex-wrap justify-center mx-auto py-10">
@@ -103,7 +111,7 @@
     <div class="flex flex-col ml-10 bg-[#D9D9D9] mx-10 p-5 py-10 rounded-lg">
         <h1 class="text-4xl font-bold">Inscrivez-vous dès maintenant !</h1>
         <p class="py-4">Inscrivez-vous dès maintenant et profiter de nos offres sur la monnaie x-pay et profiter de vos premier cours !</p>
-        <button class="bg-[#FF6363] rounded-lg text-center text-white w-64 px-4 mt-3">Je m'inscrit</button>
+        <button class="bg-[#FF6363] rounded-lg text-center text-white w-64 px-4 mt-3"><a href="/register">Je m'inscrit</a></button>
     </div>
 </section>
 

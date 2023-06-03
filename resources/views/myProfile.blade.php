@@ -1,3 +1,13 @@
+<div class="top-0 bg-[#FF6363] rounded-b-lg">
+    <div class="flex flex-row justify-between p-2 content-center">
+        <div class="bg-black w-20 h-12 rounded-xl"></div>
+        <div class="flex flex-row gap-2">
+            <div class="text-center bg-white text-balck rounded-xl w-auto h-8 p-1 px-3"><a href="/register">Inscription</a></div>
+            <div class="text-center bg-white text-balck rounded-xl w-auto h-8 p-1 px-3"><a href="/login">Connexion</a></div>
+        </div>
+    </div>
+</div>
+
 <div class="flex flex-row gap-3 ml-28 pt-24">
     <div class="w-1/3">
         <div class="flex flex-col w-64 mx-auto border rounded-lg shadow-indigo-100/50 p-3">
