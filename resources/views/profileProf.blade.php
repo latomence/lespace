@@ -1,3 +1,13 @@
+<div class="top-0 bg-[#FF6363] rounded-b-lg">
+    <div class="flex flex-row justify-between p-2 content-center">
+        <div class="bg-black w-20 h-12 rounded-xl"></div>
+        <div class="flex flex-row gap-2">
+            <div class="text-center bg-white text-balck rounded-xl w-auto h-8 p-1 px-3"><a href="/register">Inscription</a></div>
+            <div class="text-center bg-white text-balck rounded-xl w-auto h-8 p-1 px-3"><a href="/login">Connexion</a></div>
+        </div>
+    </div>
+</div>
+
 <div class="flex justify-center gap-64 pt-24 w-2/4 mx-auto">
     <div class="2/3 flex justify-start">
         <h1 class="text-2xl">Cours d'anglais</h1>

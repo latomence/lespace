@@ -1,3 +1,13 @@
+<div class="top-0 bg-[#FF6363] rounded-b-lg">
+    <div class="flex flex-row justify-between p-2 content-center">
+        <div class="bg-black w-20 h-12 rounded-xl"></div>
+        <div class="flex flex-row gap-2">
+            <div class="text-center bg-white text-balck rounded-xl w-auto h-8 p-1 px-3"><a href="/register">Inscription</a></div>
+            <div class="text-center bg-white text-balck rounded-xl w-auto h-8 p-1 px-3"><a href="/login">Connexion</a></div>
+        </div>
+    </div>
+</div>
+
 <div class="flex w-2/4 justify-center mx-auto pt-24">
     <div class="border border-[#D9D9D9] w-full h-auto rounded-lg py-3">
         <h1 class="text-2xl font-bold text-center">Ma messagerie</h1>

@@ -1,12 +1,23 @@
+<div class="top-0 bg-[#FF6363] rounded-b-lg">
+    <div class="flex flex-row justify-between p-2 content-center">
+        <div class="bg-black w-20 h-12 rounded-xl"></div>
+        <div class="flex flex-row gap-2">
+            <div class="text-center bg-white text-balck rounded-xl w-auto h-8 p-1 px-3">X-pay: 0</div>
+            <div class="text-center bg-white text-balck rounded-xl w-auto h-8 p-1 px-3"><a href="/myProfile">Mon profil</a></div>
+        </div>
+    </div>
+</div>
+
 <div class="text-center">
-    <h1 class="text-2xl">Acheter des packs</h1>
+    <h1 class="text-2xl mt-5">Acheter des packs</h1>
 </div>
 
 <div class="flex mx-auto justify-center pt-36">
     <div class="flex flex-row flex-wrap gap-3">
         <div class="border border-black rounded-lg bg-[#EBEBEB] w-64 px-2 py-2">
             <div>
-                <div class="bg-black h-28 w-full rounded-lg"></div>
+                <div></div>
+                <!-- <img src="resources/assets/X_pay_3.png" class="h-28 w-full rounded-lg" alt=""> -->
             </div>
             <div class="text-center">
                 <h2>450 X-PAY</h2>
